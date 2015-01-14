@@ -5,9 +5,6 @@
   "engines": {
     "node": "0.10.x",
   "main": "server.js",
-  "dependencies": {
-    "express": "3.x"
-  },
   "scripts": {
     "start": "node server.js",
     "postinstall": "npm install -g bower && bower install"
@@ -21,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Chareesa/GuessingGame_V2/issues"
   },
-  "homepage": "https://github.com/Chareesa/GuessingGame_V2"
+  "homepage": "https://github.com/Chareesa/GuessingGame_V2",
+  "dependencies": {
+    "express": "3.x"
+  }
 }
