@@ -1,0 +1,22 @@
+{
+  "name": "GuessingGame_V2",
+  "version": "1.0.0",
+  "description": "Simple guessing game using JQuery, JS, HTML, and CSS",
+  "dependencies": {
+    "express": "3.x",
+    "jquery": "^2.1.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chareesa/GuessingGame_V2.git"
+  },
+  "author": "Chareesa Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chareesa/GuessingGame_V2/issues"
+  },
+  "homepage": "https://github.com/Chareesa/GuessingGame_V2"
+}
