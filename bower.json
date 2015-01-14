@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "homepage": "https://github.com/Chareesa/GuessingGame_V2",
   "authors": [
-    "Chareesa <chareesagraham@gmail.com>"
+    "Chareesa Graham <chareesagraham@gmail.com>"
   ],
+  "main": "server.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
     "bower_components",
+    "node_modules",
     "test",
     "tests"
   ],

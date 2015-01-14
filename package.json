@@ -1,13 +1,16 @@
 {
   "name": "GuessingGame_V2",
   "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x",
   "description": "Simple guessing game using JQuery, JS, HTML, and CSS",
   "main": "server.js",
   "dependencies": {
     "express": "3.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npm install -g bower && bower install"
   },
   "repository": {
     "type": "git",
