@@ -6,8 +6,7 @@
     "node": "0.10.x",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "npm install -g bower && bower install"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
