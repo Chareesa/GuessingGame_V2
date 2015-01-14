@@ -9,11 +9,10 @@ var array2 = [];
 var answer1;
 var answer2;
 
-$('#f2').hide();
-$('#gabumon2').hide();
-$('#gabumon3').hide();
-
 $(document).ready(function() {
+  $('#f2').hide();
+  $('#gabumon2').hide();
+  $('#gabumon3').hide();
   $('#firstQ').focus();
 
   $('#form1').on('submit', function(e) {
@@ -24,7 +23,6 @@ $(document).ready(function() {
       $('#wrongAnswer').append('<p id=\'wrongList\'>' + answer1 + '</p>');
       array1.push(answer1);
       $('#firstQ').val('');
-
     } else {
       $('#form1').replaceWith('<button id=\'next\'>NEXT!!</button>');
       $('#showAnswer1').text('The correct answer is Mary!');
@@ -40,7 +38,6 @@ $(document).ready(function() {
         $('#section1Title').show().text('Here\'s your next question.');
         $('#section2').show();
         $('#lastQ').focus();
-
       });
     }
   });
@@ -52,7 +49,6 @@ $(document).ready(function() {
       $('#wrongAnswer').append('<p id=\'wrongList\'>' + answer2 + '</p>');
       array2.push(answer2);
       $('#lastQ').val('');
-
     } else {
       $('#section1Title').hide();
       $('#gabumon2').hide();
