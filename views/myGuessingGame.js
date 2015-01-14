@@ -9,11 +9,11 @@ var array2 = [];
 var answer1;
 var answer2;
 
-$(document).ready(function() {
+$('#f2').hide();
+$('#gabumon2').hide();
+$('#gabumon3').hide();
 
-  $('#f2').hide();
-  $('#gabumon2').hide();
-  $('#gabumon3').hide();
+$(document).ready(function() {
   $('#firstQ').focus();
 
   $('#form1').on('submit', function(e) {
