@@ -6,4 +6,4 @@ This game asks the user to answer two riddles. For each riddle, incorrect answer
 Jquery, html, and a touch of css are included in this app.
 
 The app is hosted on Heroku, you can see it here:
-https://staticexpressapp.herokuapp.com/
+https://simpleguessinggame.herokuapp.com/
